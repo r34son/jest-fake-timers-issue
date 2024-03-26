@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "**/__tests__/*.ts"]
+}
